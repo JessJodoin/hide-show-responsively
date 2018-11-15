@@ -31,7 +31,7 @@ body img:nth-child(even) {
 @media only screen and (min-width: 25em){
 
   img {
-    width:
+    width: 49%;
   }
 
   body img:nth-child(even) {
@@ -42,7 +42,7 @@ body img:nth-child(even) {
 @media only screen and (min-width: 38em){
 
   img {
-    width:
+    width: 32%;
   }
 
   body img:last-child {
@@ -54,7 +54,7 @@ body img:nth-child(even) {
 @media only screen and (min-width: 60em){
 
   img {
-    width:
+    width: 24%;
   }
 
   body img:nth-child(even) {
