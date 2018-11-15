@@ -28,7 +28,7 @@ body img:nth-child(even) {
   display: none;
 }
 
-@media only screen and (min-width: 25em){
+@media only screen and (min-width: 25em) {
 
   img {
     width: 49%;
@@ -36,28 +36,34 @@ body img:nth-child(even) {
 
   body img:nth-child(even) {
     display: inline-block;
+  }
 
 }
 
-@media only screen and (min-width: 38em){
+@media only screen and (min-width: 38em) {
 
   img {
     width: 32%;
   }
 
-  body img:last-child {
+  body img:first-child {
     display: none;
   }
 
 }
 
-@media only screen and (min-width: 60em){
+@media only screen and (min-width: 60em) {
 
   img {
     width: 24%;
   }
 
+  body img:first-child {
+    display: inline-block;
+  }
+
   body img:nth-child(even) {
     display: inline-block;
+  }
 
 }
