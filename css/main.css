@@ -24,18 +24,29 @@ img {
   max-width: 25em;
 }
 
+body img:nth-child(even) {
+  display: none;
+}
+
 @media only screen and (min-width: 25em){
 
   img {
-    overflow: hidden;
+    width:
   }
+
+  body img:nth-child(even) {
+    display: inline-block;
 
 }
 
 @media only screen and (min-width: 38em){
 
   img {
-    overflow: hidden;
+    width:
+  }
+
+  body img:last-child {
+    display: none;
   }
 
 }
@@ -43,7 +54,10 @@ img {
 @media only screen and (min-width: 60em){
 
   img {
-    display: inline-block;
+    width:
   }
+
+  body img:nth-child(even) {
+    display: inline-block;
 
 }
